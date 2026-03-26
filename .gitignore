@@ -1,0 +1,39 @@
+# Dependencias
+node_modules/
+jspm_packages/
+
+# Archivos de entorno
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Compilados y builds
+dist/
+build/
+coverage/
+.tmp/
+
+# Configuración de IDE/Editor
+.vscode/
+.idea/
+*.swp
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Cache
+.cache/
+.parcel-cache/
+.next/
+out/
+
+# Tests
+coverage/
