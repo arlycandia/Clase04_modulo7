@@ -1,11 +1,11 @@
 {
   "name": "src",
   "version": "1.0.0",
-  "description": "",
+  "description": "Este repositorio corresponde a la **Clase 4 del Módulo 7** del curso.\r El objetivo es aplicar los conceptos vistos en clase y reforzar el aprendizaje práctico.",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon --env-file=.env ./src/index.js",
-    "start":"node ./src/index.js"
+    "start": "node ./src/index.js"
   },
   "keywords": [],
   "author": "Arly Candia",
@@ -13,7 +13,21 @@
   "type": "module",
   "dependencies": {
     "express": "^5.2.1",
-    "nodemon": "^3.1.14",
-    "pg": "^8.20.0"
+    "express-handlebars": "^8.0.6",
+    "pg": "^8.20.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arlycandia/Clase04_modulo7.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arlycandia/Clase04_modulo7/issues"
+  },
+  "homepage": "https://github.com/arlycandia/Clase04_modulo7#readme",
+  "devDependencies": {
+    "dotenv": "^17.3.1",
+    "nodemon": "^3.1.14"
   }
 }
